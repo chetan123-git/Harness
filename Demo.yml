@@ -1,0 +1,8 @@
+- step:
+    type: Run
+    name: Build Go App
+    spec:
+      command: |
+        echo "Welcome to Harness CI"
+        go build
+        go test
